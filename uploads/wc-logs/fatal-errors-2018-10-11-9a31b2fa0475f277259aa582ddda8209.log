@@ -1,0 +1,14 @@
+2018-10-11T05:36:47+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-10-11T06:41:42+00:00 CRITICAL Uncaught Error: Call to undefined function putRevSlider() in D:\localdev\htdocs\speedcreed\wp-content\themes\rehub\footer.php:4
+Stack trace:
+#0 D:\localdev\htdocs\speedcreed\wp-includes\template.php(688): require_once()
+#1 D:\localdev\htdocs\speedcreed\wp-includes\template.php(647): load_template('D:\\localdev\\htd...', true)
+#2 D:\localdev\htdocs\speedcreed\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 D:\localdev\htdocs\speedcreed\wp-content\themes\rehub\page.php(24): get_footer()
+#4 D:\localdev\htdocs\speedcreed\wp-includes\template-loader.php(74): include('D:\\localdev\\htd...')
+#5 D:\localdev\htdocs\speedcreed\wp-blog-header.php(19): require_once('D:\\localdev\\htd...')
+#6 D:\localdev\htdocs\speedcreed\index.php(17): require('D:\\localdev\\htd...')
+#7 {main}
+  thrown
+
